@@ -1,0 +1,28 @@
+# Virtual environment (never commit this — teammates create their own)
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+
+# Large or generated data (comment out if you DO want to version these)
+# dataset/*.csv
+# model/*.pkl
