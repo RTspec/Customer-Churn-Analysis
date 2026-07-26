@@ -32,7 +32,7 @@ sns.heatmap(df.corr(),
 
 plt.title("Correlation Heatmap")
 
-plt.savefig("static/images/churn_distribution.png")
+plt.savefig("static/images/churn_distribution_heatmap.png")
 plt.show()
 
 plt.figure(figsize=(8,5))
@@ -41,7 +41,7 @@ sns.histplot(df["MonthlyCharges"], bins=30)
 
 plt.title("Monthly Charges Distribution")
 
-plt.savefig("static/images/churn_distribution.png")
+plt.savefig("static/images/churn_distribution_histplot.png")
 plt.show()
 
 plt.figure(figsize=(8,5))
@@ -58,7 +58,7 @@ sns.boxplot(y=df["MonthlyCharges"])
 
 plt.title("Monthly Charges Boxplot")
 
-plt.savefig("static/images/churn_distribution.png")
+plt.savefig("static/images/churn_distribution_boxPlot.png")
 plt.show()
 
 sns.pairplot(df[
@@ -70,6 +70,6 @@ sns.pairplot(df[
     ]
 ])
 
-plt.savefig("static/images/churn_distribution.png")
+plt.savefig("static/images/churn_distribution_pairPlot.png")
 plt.show()
 
