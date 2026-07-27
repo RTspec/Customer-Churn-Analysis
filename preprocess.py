@@ -52,6 +52,9 @@ if "TotalCharges" in df.columns:
 
     df["TotalCharges"] = df["TotalCharges"].fillna(df["TotalCharges"].median())
 
+    df.to_csv("dataset/customer_churn_cleaned_for_eda.csv", index=False)
+    
+
 # ======================================
 # Label Encoding
 # ======================================
