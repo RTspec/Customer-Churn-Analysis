@@ -116,7 +116,7 @@ print(classification_report(y_test, y_pred))
 # Save Model
 # ==========================
 
-with open("decision_tree_model.pkl", "wb") as f:
+with open("model/decision_tree_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
 

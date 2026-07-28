@@ -118,7 +118,7 @@ print(classification_report(y_test, y_pred))
 # Save Model
 # ==========================
 
-with open("churn_model.pkl", "wb") as f:
+with open("model/lr_churn_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
 

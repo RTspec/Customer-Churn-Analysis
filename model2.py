@@ -37,5 +37,5 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 # Save Model
-joblib.dump(rf_model, "churn_model.pkl")
+joblib.dump(rf_model, "model/rfc_churn_model.pkl")
 print("Model saved as churn_model.pkl")
