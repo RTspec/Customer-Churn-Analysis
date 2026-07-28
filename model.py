@@ -18,7 +18,19 @@ print("Dataset Loaded Successfully")
 print("Shape:", df.shape)
 
 # Features and Target
-X = df.drop("Churn", axis=1)
+X = df[
+    [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges",
+        "Contract"
+    ]
+]
+
 y = df["Churn"]
 
 # Train-Test Split
