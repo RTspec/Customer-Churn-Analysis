@@ -1,8 +1,10 @@
 import streamlit as st
 import joblib
+import pickle
+import joblib
 
+encoder = joblib.load("encoder.pkl")
 model = joblib.load("churn_model.pkl")
-
 
 # Page Configuration
 st.set_page_config(
