@@ -1,4 +1,8 @@
 import streamlit as st
+import joblib
+
+model = joblib.load("churn_model.pkl")
+
 
 # Page Configuration
 st.set_page_config(

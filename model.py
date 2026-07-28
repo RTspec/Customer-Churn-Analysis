@@ -20,10 +20,7 @@ df = pd.read_csv("dataset/customer_churn_processed.csv")
 print("Dataset Loaded Successfully")
 print("Shape:", df.shape)
 
-
-# ==========================
-# Label Encoding
-# ==========================
+encoder = LabelEncoder()
 
 encoder = LabelEncoder()
 
