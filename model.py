@@ -123,7 +123,7 @@ with open("model/lr_churn_model.pkl", "wb") as f:
 
 
 # Save Encoder
-with open("encoder.pkl", "wb") as f:
+with open("encoders/encoder.pkl", "wb") as f:
     pickle.dump(encoder, f)
 
 

@@ -121,7 +121,7 @@ with open("model/decision_tree_model.pkl", "wb") as f:
 
 
 # Save Encoder
-with open("dt_encoder.pkl", "wb") as f:
+with open("encoders/dt_encoder.pkl", "wb") as f:
     pickle.dump(encoder, f)
 
 
