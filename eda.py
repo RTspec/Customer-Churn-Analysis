@@ -5,6 +5,7 @@ import seaborn as sns
 # Set style
 sns.set(style="whitegrid")
 
+
 # Load dataset
 df = pd.read_csv("dataset/customer_churn_processed.csv")
 
